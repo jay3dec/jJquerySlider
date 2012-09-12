@@ -1,0 +1,21 @@
+ #slideShow
+        {
+        	height:500px;
+            width:500px;
+            position:relative;	
+            overflow:hidden;
+            margin:0px auto;
+            border:solid 5px #000000;
+        }
+        #slideShow div
+        {
+        	position:absolute;
+        	left:0px;
+        	width:2500px;
+        }
+        #slideShow div img
+        {
+        	height:500px;
+        	width:500px;
+        	float:left;
+        }
